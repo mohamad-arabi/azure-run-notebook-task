@@ -33,6 +33,7 @@ jobs:
 
       - name: Rebuild the dist/ directory
         run: |
+          cd buildandreleasetask
           npm run build
           npm run package
 
