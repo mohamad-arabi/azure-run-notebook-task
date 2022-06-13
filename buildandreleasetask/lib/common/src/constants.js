@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DATABRICKS_OUTPUT_TRUNCATED_KEY = exports.DATABRICKS_RUN_URL_KEY = exports.DATABRICKS_RUN_ID_KEY = exports.DATABRICKS_RUN_NOTEBOOK_OUTPUT_KEY = exports.DATABRICKS_TMP_NOTEBOOK_UPLOAD_DIR_STATE_KEY = exports.JOB_RUN_TASK_KEY = exports.GET_JOB_STATUS_POLL_INTERVAL_SECS = void 0;
+exports.GET_JOB_STATUS_POLL_INTERVAL_SECS = 5;
+exports.JOB_RUN_TASK_KEY = 'notebook-task';
+exports.DATABRICKS_TMP_NOTEBOOK_UPLOAD_DIR_STATE_KEY = '__DATABRICKS_TMP_NOTEBOOK_UPLOAD_DIR';
+exports.DATABRICKS_RUN_NOTEBOOK_OUTPUT_KEY = 'notebook-output';
+exports.DATABRICKS_RUN_ID_KEY = 'run-id';
+exports.DATABRICKS_RUN_URL_KEY = 'run-url';
+exports.DATABRICKS_OUTPUT_TRUNCATED_KEY = 'truncated';
