@@ -1,0 +1,3 @@
+import { JobRunOutput } from '../../common/src/interfaces';
+export declare const runAndAwaitNotebook: (databricksHost: string, databricksToken: string, notebookPath: string, clusterSpec: object, librariesSpec?: object | undefined, notebookParamsSpec?: object | undefined, aclSpec?: object | undefined, timeoutSpec?: object | undefined, runNameSpec?: object | undefined, gitSourceSpec?: object | undefined) => Promise<JobRunOutput>;
+//# sourceMappingURL=run-notebook.d.ts.map
